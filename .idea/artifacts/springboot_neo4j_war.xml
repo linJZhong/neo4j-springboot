@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-neo4j:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-neo4j</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-neo4j-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-neo4j:war exploded" />
+    </root>
+  </artifact>
+</component>
